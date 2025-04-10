@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="utf-8">
+  <title>Portfolio Template</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+  
+
+<header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand font-tertiary h3" href="index.html"><img src="images/logo.png" alt="Myself" height="100" width="125"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- hero area -->
+<section class="hero-area bg-primary" id="parallax">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-11 mx-auto">
+        <h1 class="text-white font-tertiary">Hi! I’m <br> Rajdeep <br> Data Engineer/ Data Analyst</h1>
+      </div>
+    </div>
+  </div>
+  <div class="layer-bg w-100">
+    <img class="img-fluid w-100" src="images/illustrations/leaf-bg.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l2">
+    <img src="images/illustrations/dots-cyan.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l3">
+    <img src="images/illustrations/leaf-orange.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l4">
+    <img src="images/illustrations/dots-orange.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l5">
+    <img src="images/illustrations/leaf-yellow.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l6">
+    <img src="images/illustrations/leaf-cyan.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l7">
+    <img src="images/illustrations/dots-group-orange.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l8">
+    <img src="images/illustrations/leaf-pink-round.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l9">
+    <img src="images/illustrations/leaf-cyan-2.png" alt="bg-shape">
+  </div>
+  <!-- social icon -->
+  <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
+    <li class="mb-3"><a class="text-white" href="#"><i class="ti-facebook"></i></a></li>
+    <li class="mb-3"><a class="text-white" href="#"><i class="ti-instagram"></i></a></li>
+    <li class="mb-3"><a class="text-white" href="#"><i class="ti-dribbble"></i></a></li>
+    <li class="mb-3"><a class="text-white" href="#"><i class="ti-twitter"></i></a></li>
+  </ul>
+  <!-- /social icon -->
+</section>
+<!-- /hero area -->
+
+<!-- about -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <p class="font-secondary paragraph-lg text-dark">I'm a Data Analyst with a passion for turning raw data into actionable insights. 
+          I have a strong foundation in analytics, and always looking for new ways to apply my skills to real-world problems. In my free time, you'll find me tinkering with data sets and exploring new tools and techniques. </p>
+        <a href="about.html" class="btn btn-transparent">know more</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /about -->
+
+<!-- skills -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Skills</h2>
+      </div>
+<div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+  <div class="card shadow text-center p-3">
+    <div class="position-relative">
+      <img src="data:image/webp;base64,UklGRoIGAABXRUJQVlA4IHYGAABQKACdASq/ANkAPoFAm0olJCYho9TZkMAQCWVu1VRZaSHXgRX6caQByDnmzUn8IfDilu0GXCEl5EytIeU/wPJ/9X7/obBgskaonUGdFS95zviSweSeXLPlssayGYg/HCnJgii45W78mIpiEl3JSpXwaGmUrNVpJ3AyxB+yfCT1rG5mVCmRgrgMPW5NAElCw+9rPIbOyP9TX4CeV4QkXDhlaK+C0YYRAulFn2teOwE0NimQPGWUI33VKLXdIMcQmf3d9hWR1/vt74pIzjCuRB2OjRwZ/yvNw3lA05psPy9WdbMXy/e6Z/ebBGD6wS24IA/n3A4PWI3UQVBIGoFSslTkkh45w/ssRM1eF1fsnwVCh/4JxmaaxuporemCSbrc3Tog1SPOXNYgR/rh3Wa1hAWT12AddWC4GfLRvsqhhwiTt5nz8kPClqlDVScAAP77IYfbfxZe2fcxrXFXfJ0O1ByVbwGiq/z/ARKDaTo89jnsxJJ6S3sv8SKbEWNDdFUGJF5dwJ46DkV0GxdoVbXIIqgtawY/PhFCtRMeL5WZZsGzVcKiT9prGh4Q9d0zAHU+kh6lJjdFuCAsa2pu9FFKnDD1T9K2BhmJR9Qb8sLUvOqgB7RSVy64oI7ouaqTsInSjLMCn/f5yn9uMb/Xbag6MHlBZS0Z9odGn22+pLdZZLHsWNeBEPT+sxldRs/03CRqV7Bx84uDN+XFL8vQ8tCTNXx8etwtoyKzvHb3B8QsxZ/zJOkoGKIt51TC0+F9xITdAxPUvfZVwtBjwukD9aN/O185z6TAobNDFotfkt7CngIrY19S/WHAlq34HhME3fbt7F95OMpxxNfGO62AYOkazU9NiQhLMlJrMNiqgUhYW7/wQK6oXmb+gqd7EKDNvdC4XcL8xMMVp4niLFq4+Y7U82HLg5Ld5sW69jMyEBMqgrnzqJ6Brr3njcA7MZwbpZ160hCUCI0a4W6GgckE9RnxiAICMBYyr0+PxksHacguXANqvftBSKDMRBiED2p5A/Olz12fJRTcrI5FpNHnEK22apCe2ks2XW1UKJGFuhAHqhvZzTWGfQdA2GJ7ZCip2g0tes5D1YfePITDh8H7adCxjpjdhQp6x4+TWPYIh48Lnz8v3zV5bofJf2qo9ETTUgGwJd9fCk4pT7ACwo0zKcH6omvgkMD4bXOCzv4oYBf58hnuMCbvzpspsdK/Tej2vax2eS0yUkFAGeSITwEyS73a3CxQzHX4udCVy2mMAmJTg/tJ1o+PLArYBjsaN99lxYzUhcowNzFzvk9EwWx5QQyLiGvpvLoug5MC7VUu/lqNRzt+Y/Hu5wrZBkBpphkBL5dt8eGV9YjKYrmpOtlK3aZrRBYiR1vw9f85j5kxUXNrjNDlEzarEKD9q6OHXwXLo8Vx+C00VINN2ZhqCVbZLunnOzmB5daWyerkkYrXK2ZPkn56elZ0ZdHNp2RCJ7G2sNycC7AdSvsWxMilsKhPPwyzTMGke9ALp+SVTM7y4WP1XiZNwXMi/opK9zrWgFxeSRMnsd8aoYz2ptFh+bn65+o//6Nf4I2H1lhPcjqhP4glYrkEZ2XCFKVbm4QBaSp6vwkXCMSNqwQ7cYPMXZ4JKFcjdYshST9coa91N5445kRV7sdXdeOdGe41mkaY36AOmvwHroG4SkYrCT/Q+kL/WSoqZadwujUPj+X73PFV2n5p23+d0b4S9vHXv8xdMh5Y48RlUzbJ54D23riGfi7UARTtWYTtLzrg2AjfPgkAlN507boIa8ipCR/XgiI5K75YEhNKnznvXVofIJDhOMog3QTWlurVLu/Cb8wDNeBSiRbhR3iLe0C6o7lDjuoMpHUuWF1LmQAneR6DxoJcDyd4XSg7RXlnuQOh6zkD8DmgKns7gMLl9CvJXV7JhFQfZzE/vWqDRssCmh+1hphYR5wzigHoTKb9uFqNie5S8H0GAK2qDjt/2xVOzcH+6iKyQorDJeHfWXrBsWd/6emwP1vfwRK6+gDcHpn3euZY2JGk+Q9wjqP8r4G8LdZ0NyrmIDPj+nU1yuNvVgrb3II8VQMHNVkW+inFuXBko5DSSblQ8QKokwnhGXKo3gGa7D+gVqxSwjFerkGkMV4BsJnTuAIKvzgs5kJaygABnFFkIyFjwbweB3h/uvf/TGzWnGk/6qVJCSVT/E71Ynn798ruxbaQrS60e7sEPrlRrUAA" 
+           alt="Excel Logo" 
+           class="img-fluid" 
+           style="max-width: 30px;">
+    </div>
+    <div class="mt-3">
+      <h4 class="card-title">Microsoft Excel</h4>
+      <div class="progress" style="height: 8px;">
+        <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <p class="mt-2 mb-0">90%</p>
+    </div>
+  </div>
+</div>
+      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+  <div class="card shadow text-center p-3">
+    <div class="position-relative">
+      <img src="data:image/webp;base64,UklGRoIGAABXRUJQVlA4IHYGAABQKACdASq/ANkAPoFAm0olJCYho9TZkMAQCWVu1VRZaSHXgRX6caQByDnmzUn8IfDilu0GXCEl5EytIeU/wPJ/9X7/obBgskaonUGdFS95zviSweSeXLPlssayGYg/HCnJgii45W78mIpiEl3JSpXwaGmUrNVpJ3AyxB+yfCT1rG5mVCmRgrgMPW5NAElCw+9rPIbOyP9TX4CeV4QkXDhlaK+C0YYRAulFn2teOwE0NimQPGWUI33VKLXdIMcQmf3d9hWR1/vt74pIzjCuRB2OjRwZ/yvNw3lA05psPy9WdbMXy/e6Z/ebBGD6wS24IA/n3A4PWI3UQVBIGoFSslTkkh45w/ssRM1eF1fsnwVCh/4JxmaaxuporemCSbrc3Tog1SPOXNYgR/rh3Wa1hAWT12AddWC4GfLRvsqhhwiTt5nz8kPClqlDVScAAP77IYfbfxZe2fcxrXFXfJ0O1ByVbwGiq/z/ARKDaTo89jnsxJJ6S3sv8SKbEWNDdFUGJF5dwJ46DkV0GxdoVbXIIqgtawY/PhFCtRMeL5WZZsGzVcKiT9prGh4Q9d0zAHU+kh6lJjdFuCAsa2pu9FFKnDD1T9K2BhmJR9Qb8sLUvOqgB7RSVy64oI7ouaqTsInSjLMCn/f5yn9uMb/Xbag6MHlBZS0Z9odGn22+pLdZZLHsWNeBEPT+sxldRs/03CRqV7Bx84uDN+XFL8vQ8tCTNXx8etwtoyKzvHb3B8QsxZ/zJOkoGKIt51TC0+F9xITdAxPUvfZVwtBjwukD9aN/O185z6TAobNDFotfkt7CngIrY19S/WHAlq34HhME3fbt7F95OMpxxNfGO62AYOkazU9NiQhLMlJrMNiqgUhYW7/wQK6oXmb+gqd7EKDNvdC4XcL8xMMVp4niLFq4+Y7U82HLg5Ld5sW69jMyEBMqgrnzqJ6Brr3njcA7MZwbpZ160hCUCI0a4W6GgckE9RnxiAICMBYyr0+PxksHacguXANqvftBSKDMRBiED2p5A/Olz12fJRTcrI5FpNHnEK22apCe2ks2XW1UKJGFuhAHqhvZzTWGfQdA2GJ7ZCip2g0tes5D1YfePITDh8H7adCxjpjdhQp6x4+TWPYIh48Lnz8v3zV5bofJf2qo9ETTUgGwJd9fCk4pT7ACwo0zKcH6omvgkMD4bXOCzv4oYBf58hnuMCbvzpspsdK/Tej2vax2eS0yUkFAGeSITwEyS73a3CxQzHX4udCVy2mMAmJTg/tJ1o+PLArYBjsaN99lxYzUhcowNzFzvk9EwWx5QQyLiGvpvLoug5MC7VUu/lqNRzt+Y/Hu5wrZBkBpphkBL5dt8eGV9YjKYrmpOtlK3aZrRBYiR1vw9f85j5kxUXNrjNDlEzarEKD9q6OHXwXLo8Vx+C00VINN2ZhqCVbZLunnOzmB5daWyerkkYrXK2ZPkn56elZ0ZdHNp2RCJ7G2sNycC7AdSvsWxMilsKhPPwyzTMGke9ALp+SVTM7y4WP1XiZNwXMi/opK9zrWgFxeSRMnsd8aoYz2ptFh+bn65+o//6Nf4I2H1lhPcjqhP4glYrkEZ2XCFKVbm4QBaSp6vwkXCMSNqwQ7cYPMXZ4JKFcjdYshST9coa91N5445kRV7sdXdeOdGe41mkaY36AOmvwHroG4SkYrCT/Q+kL/WSoqZadwujUPj+X73PFV2n5p23+d0b4S9vHXv8xdMh5Y48RlUzbJ54D23riGfi7UARTtWYTtLzrg2AjfPgkAlN507boIa8ipCR/XgiI5K75YEhNKnznvXVofIJDhOMog3QTWlurVLu/Cb8wDNeBSiRbhR3iLe0C6o7lDjuoMpHUuWF1LmQAneR6DxoJcDyd4XSg7RXlnuQOh6zkD8DmgKns7gMLl9CvJXV7JhFQfZzE/vWqDRssCmh+1hphYR5wzigHoTKb9uFqNie5S8H0GAK2qDjt/2xVOzcH+6iKyQorDJeHfWXrBsWd/6emwP1vfwRK6+gDcHpn3euZY2JGk+Q9wjqP8r4G8LdZ0NyrmIDPj+nU1yuNvVgrb3II8VQMHNVkW+inFuXBko5DSSblQ8QKokwnhGXKo3gGa7D+gVqxSwjFerkGkMV4BsJnTuAIKvzgs5kJaygABnFFkIyFjwbweB3h/uvf/TGzWnGk/6qVJCSVT/E71Ynn798ruxbaQrS60e7sEPrlRrUAA" 
+           alt="VBA Macro Logo" 
+           class="img-fluid" 
+           style="max-width: 30px;">
+    </div>
+    <div class="mt-3">
+      <h4 class="card-title">VBA Macro</h4>
+      <div class="progress" style="height: 8px;">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <p class="mt-2 mb-0">45%</p>
+    </div>
+  </div>
+</div>
+      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+  <div class="card shadow text-center p-3">
+    <div class="position-relative">
+      <img src="data:image/png;base64,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" 
+           alt="Power BI Logo" 
+           class="img-fluid" 
+           style="max-width: 80px;">
+    </div>
+    <div class="mt-3">
+      <h4 class="card-title">Microsoft Power BI</h4>
+      <div class="progress" style="height: 8px;">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <p class="mt-2 mb-0">80%</p>
+    </div>
+  </div>
+</div>
+     <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+  <div class="card shadow text-center p-3">
+    <div class="position-relative">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg" 
+           alt="Azure Logo" 
+           class="img-fluid" 
+           style="max-width: 80px;">
+    </div>
+    <div class="mt-3">
+      <h4 class="card-title">Azure (Cloud)</h4>
+      <div class="progress" style="height: 8px;">
+        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <p class="mt-2 mb-0">70%</p>
+    </div>
+  </div>
+</div>
+	<div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+  <div class="card shadow text-center p-3">
+    <div class="position-relative">
+      <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg" 
+           alt="MySQL Logo" 
+           class="img-fluid" 
+           style="max-width: 80px;">
+    </div>
+    <div class="mt-3">
+      <h4 class="card-title">MySQL</h4>
+      <div class="progress" style="height: 8px;">
+        <div class="progress-bar bg-info" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <p class="mt-2 mb-0">75%</p>
+    </div>
+  </div>
+</div>
+   <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+  <div class="card shadow text-center p-3">
+    <div class="position-relative">
+      <img src="data:image/png;base64,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" 
+           alt="Looker Logo" 
+           class="img-fluid" 
+           style="max-width: 100px;">
+    </div>
+    <div class="mt-3">
+      <h4 class="card-title">Looker</h4>
+      <div class="progress" style="height: 8px;">
+        <div class="progress-bar bg-purple" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <p class="mt-2 mb-0">65%</p>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+  <div class="card shadow text-center p-3">
+    <div class="position-relative">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" 
+           alt="Python Logo" 
+           class="img-fluid" 
+           style="max-width: 50px;">
+    </div>
+    <div class="mt-3">
+      <h4 class="card-title">Python</h4>
+      <div class="progress" style="height: 8px;">
+        <div class="progress-bar bg-secondary" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <p class="mt-2 mb-0">80%</p>
+    </div>
+  </div>
+</div>
+<div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+  <div class="card shadow text-center p-3">
+    <div class="position-relative">
+      <img src="data:image/jpeg;base64,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" 
+           alt="PowerPoint Logo" 
+           class="img-fluid" 
+           style="max-width: 50px;">
+    </div>
+    <div class="mt-3">
+      <h4 class="card-title">Microsoft PowerPoint</h4>
+      <div class="progress" style="height: 8px;">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <p class="mt-2 mb-0">85%</p>
+    </div>
+  </div>
+</div>
+</section>
+<!-- /skills -->
+
+<!-- portfolio -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Projects</h2>
+      </div>
+    </div>
+    <div class="row shuffle-wrapper">
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-1.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-2.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-3.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-4.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-5.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /portfolio -->
+
+<!-- testimonial -->
+<section class="section bg-primary position-relative testimonial-bg-shapes">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title text-white mb-5">Testimonials</h2>
+      </div>
+      <div class="col-lg-10 mx-auto testimonial-slider">
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+          <p class="text-white mb-4">"Rajdeep is an exceptional Data Analyst with a keen eye for detail and a deep understanding of turning raw data into meaningful insights.<strong> His ability to break down complex problems and provide actionable recommendations has been instrumental in driving business decisions. His passion for data analytics is evident in the way he constantly explores new tools and techniques to enhance efficiency.</strong> Any organization would benefit from his analytical expertise and problem-solving approach."</p>
+          <img class="img-fluid rounded-circle mb-4 d-inline-block" src="images/testimonial/client-1.png"
+            alt="client-image">
+          <h4 class="text-white">Utsav  Pataihe</h4>
+          <h6 class="text-light mb-4">Python Developer</h6>
+        </div>
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+          <p class="text-white mb-4">"Having worked with Rajdeep on multiple projects,<strong> I can confidently say that he is a true leader in managing cross-functional teams and delivering results. His expertise in Agile and Waterfall methodologies ensures seamless execution of projects, meeting deadlines while exceeding expectations.</strong> He has a unique ability to streamline processes, foster collaboration, and drive innovation, making him an invaluable asset to any team."</p>
+          <img class="img-fluid rounded-circle mb-4 d-inline-block" src="images/testimonial/client-1.png"
+            alt="client-image">
+          <h4 class="text-white">Jelix Johnson</h4>
+          <h6 class="text-light mb-4">Network Administrator</h6>
+        </div>
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+          <p class="text-white mb-4">"Rajdeep’s passion for data and analytics is truly inspiring.<strong> His continuous drive to learn and transition into Data Engineering speaks volumes about his commitment to professional growth. With a solid foundation in analytics and a strong problem-solving mindset, he is well-equipped to excel in the evolving world of data engineering.</strong> I have no doubt that his dedication and technical acumen will make a significant impact wherever he goes."</p>
+          <img class="img-fluid rounded-circle mb-4 d-inline-block" src="images/testimonial/client-1.png"
+            alt="client-image">
+          <h4 class="text-white">Anamika Ghosal</h4>
+          <h6 class="text-light mb-4">Data Analyst</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- bg shapes -->
+  <img src="images/backgrounds/map.png" alt="map" class="img-fluid bg-map">
+  <img src="images/illustrations/dots-group-v.png" alt="bg-shape" class="img-fluid bg-shape-1">
+  <img src="images/illustrations/leaf-orange.png" alt="bg-shape" class="img-fluid bg-shape-2">
+  <img src="images/illustrations/dots-group-sm.png" alt="bg-shape" class="img-fluid bg-shape-3">
+  <img src="images/illustrations/leaf-pink-round.png" alt="bg-shape" class="img-fluid bg-shape-4">
+  <img src="images/illustrations/leaf-cyan.png" alt="bg-shape" class="img-fluid bg-shape-5">
+</section>
+<!-- /testimonial -->
+
+<!-- clients -->
+<section class="section bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">My Clients</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="client-logo-slider d-flex align-items-center">
+          <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-1.png" alt="client-logo"></a>
+          <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-2.png" alt="client-logo"></a>
+          <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-3.png" alt="client-logo"></a>
+          <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-4.png" alt="client-logo"></a>
+          <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-5.png" alt="client-logo"></a>
+          <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-1.png" alt="client-logo"></a>
+          <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-2.png" alt="client-logo"></a>
+          <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-3.png" alt="client-logo"></a>
+          <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-4.png" alt="client-logo"></a>
+          <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+              src="images/clients-logo/client-logo-5.png" alt="client-logo"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /clients -->
+
+<!-- blog -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">My Blogs</h2>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/blog/post-3.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title"><a class="text-dark" href="blog-single.html">Best Practices in Data Analytics: How Can Organizations Maximize Their Data Potential?</a>
+            </h4>
+            <p class="cars-text">In today's data-driven world, organizations rely on data analytics to make informed decisions, optimize processes, 
+	     and gain a competitive edge. However, simply collecting data is not enough. To extract meaningful insights and drive 
+	     real business value, organizations must follow best practices in data analytics....</p>
+            <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/blog/post-4.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title"><a class="text-dark" href="blog-single.html">The Role of Data Engineering in Modern Analytics – Why data engineering is crucial for building scalable analytics solutions.</a>
+            </h4>
+            <p class="cars-text">Data engineering is the backbone of scalable analytics, ensuring that raw data is efficiently collected, processed, and stored for analysis. By building robust pipelines and infrastructure, data engineers enable organizations to generate reliable insights and drive data-driven decision-making.</p>
+            <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/blog/post-2.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title"><a class="text-dark" href="blog-single.html">Data Warehousing vs. Data Lakes: Which One to Choose? – A comparative analysis of two major data storage architectures.</a>
+            </h4>
+            <p class="cars-text">Data warehouses and data lakes serve different purposes in data storage and analytics. While data warehouses provide structured, high-performance querying for business intelligence, data lakes offer flexible storage for raw, unstructured data, making them ideal for big data and machine learning applications.</p>
+            <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /blog -->
+
+<!-- contact -->
+<section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Enter your contact details</h2>
+      </div>
+      <div class="col-lg-8 mx-auto">
+        <div class="bg-white rounded text-center p-5 shadow-down">
+          <h4 class="mb-80">Contact Form</h4>
+          <form action="#" class="row">
+            <div class="col-md-6">
+              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-md-6">
+              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-12">
+              <textarea name="message" id="message" class="form-control px-0 mb-4"
+                placeholder="Type Message Here"></textarea>
+            </div>
+            <div class="col-lg-6 col-10 mx-auto">
+              <button class="btn btn-primary w-100">send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /contact -->
+
+<!-- footer -->
+<footer class="bg-dark footer-section">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+  <h5 class="text-light text-center font-weight-bold">Connect with Me</h5>
+  <div class="d-flex justify-content-center">
+    <!-- LinkedIn Icon -->
+    <a href="https://www.linkedin.com/in/rajdeep-chakraborty" target="_blank" class="text-white mx-3">
+      <i class="fab fa-linkedin fa-2x"></i>
+    </a>
+    <!-- Gmail Icon -->
+    <a href="mailto:mr.rajdeep.chakraborty@gmail.com" target="_blank" class="text-white mx-3">
+      <i class="fab fa-google fa-2x"></i>
+    </a>
+    <!-- GitHub Icon -->
+    <a href="https://github.com/hi-rajdeep" target="_blank" class="text-white mx-3">
+      <i class="fab fa-github fa-2x"></i>
+    </a>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</footer>
+  <div class="border-top text-center border-dark py-5">
+    <p class="mb-0 text-light">Copyright ©<script>
+        var CurrentYear = new Date().getFullYear()
+        document.write(CurrentYear)
+      </script> Rajdeep chakraborty 
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- filter -->
+<script src="plugins/shuffle/shuffle.min.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
